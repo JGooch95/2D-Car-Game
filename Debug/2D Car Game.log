@@ -1,0 +1,59 @@
+﻿Build started 30/07/2016 19:59:18.
+     1>Project "C:\Users\Jonathon\Desktop\Uni P14141535\Year Two\IMAT2605 - Object Oriented Design and Decelopment with C++\2D Car Game\2D Car Game\2D Car Game.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 13.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt src\Game.cpp
+         Game.cpp
+     1>c:\users\jonathon\desktop\uni p14141535\year two\imat2605 - object oriented design and decelopment with c++\2d car game\2d car game\src\game.cpp(41): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\jonathon\desktop\uni p14141535\year two\imat2605 - object oriented design and decelopment with c++\2d car game\2d car game\src\game.cpp(56): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\jonathon\desktop\uni p14141535\year two\imat2605 - object oriented design and decelopment with c++\2d car game\2d car game\src\game.cpp(71): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\jonathon\desktop\uni p14141535\year two\imat2605 - object oriented design and decelopment with c++\2d car game\2d car game\src\game.cpp(91): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\jonathon\desktop\uni p14141535\year two\imat2605 - object oriented design and decelopment with c++\2d car game\2d car game\src\game.cpp(103): warning C4244: 'argument' : conversion from 'int' to 'const float', possible loss of data
+     1>c:\users\jonathon\desktop\uni p14141535\year two\imat2605 - object oriented design and decelopment with c++\2d car game\2d car game\src\game.cpp(108): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\jonathon\desktop\uni p14141535\year two\imat2605 - object oriented design and decelopment with c++\2d car game\2d car game\src\game.cpp(130): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\jonathon\desktop\uni p14141535\year two\imat2605 - object oriented design and decelopment with c++\2d car game\2d car game\src\game.cpp(136): warning C4244: 'argument' : conversion from 'const unsigned int' to 'float', possible loss of data
+     1>c:\users\jonathon\desktop\uni p14141535\year two\imat2605 - object oriented design and decelopment with c++\2d car game\2d car game\src\game.cpp(137): warning C4244: 'argument' : conversion from 'const unsigned int' to 'float', possible loss of data
+     1>c:\users\jonathon\desktop\uni p14141535\year two\imat2605 - object oriented design and decelopment with c++\2d car game\2d car game\src\game.cpp(142): warning C4244: 'argument' : conversion from 'const unsigned int' to 'float', possible loss of data
+     1>c:\users\jonathon\desktop\uni p14141535\year two\imat2605 - object oriented design and decelopment with c++\2d car game\2d car game\src\game.cpp(143): warning C4244: 'argument' : conversion from 'const unsigned int' to 'float', possible loss of data
+     1>c:\users\jonathon\desktop\uni p14141535\year two\imat2605 - object oriented design and decelopment with c++\2d car game\2d car game\src\game.cpp(148): warning C4244: 'argument' : conversion from 'const unsigned int' to 'float', possible loss of data
+     1>c:\users\jonathon\desktop\uni p14141535\year two\imat2605 - object oriented design and decelopment with c++\2d car game\2d car game\src\game.cpp(149): warning C4244: 'argument' : conversion from 'const unsigned int' to 'float', possible loss of data
+     1>c:\users\jonathon\desktop\uni p14141535\year two\imat2605 - object oriented design and decelopment with c++\2d car game\2d car game\src\game.cpp(153): warning C4244: 'argument' : conversion from 'const unsigned int' to 'float', possible loss of data
+     1>c:\users\jonathon\desktop\uni p14141535\year two\imat2605 - object oriented design and decelopment with c++\2d car game\2d car game\src\game.cpp(162): warning C4244: 'argument' : conversion from 'const unsigned int' to 'float', possible loss of data
+     1>c:\users\jonathon\desktop\uni p14141535\year two\imat2605 - object oriented design and decelopment with c++\2d car game\2d car game\src\game.cpp(165): warning C4244: 'argument' : conversion from 'const unsigned int' to 'float', possible loss of data
+     1>c:\users\jonathon\desktop\uni p14141535\year two\imat2605 - object oriented design and decelopment with c++\2d car game\2d car game\src\game.cpp(166): warning C4244: 'argument' : conversion from 'const unsigned int' to 'float', possible loss of data
+     1>c:\users\jonathon\desktop\uni p14141535\year two\imat2605 - object oriented design and decelopment with c++\2d car game\2d car game\src\game.cpp(171): warning C4244: 'argument' : conversion from 'const unsigned int' to 'float', possible loss of data
+     1>c:\users\jonathon\desktop\uni p14141535\year two\imat2605 - object oriented design and decelopment with c++\2d car game\2d car game\src\game.cpp(176): warning C4244: 'argument' : conversion from 'const unsigned int' to 'float', possible loss of data
+     1>c:\users\jonathon\desktop\uni p14141535\year two\imat2605 - object oriented design and decelopment with c++\2d car game\2d car game\src\game.cpp(184): warning C4244: 'argument' : conversion from 'const unsigned int' to 'float', possible loss of data
+     1>c:\users\jonathon\desktop\uni p14141535\year two\imat2605 - object oriented design and decelopment with c++\2d car game\2d car game\src\game.cpp(403): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\jonathon\desktop\uni p14141535\year two\imat2605 - object oriented design and decelopment with c++\2d car game\2d car game\src\game.cpp(405): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>c:\users\jonathon\desktop\uni p14141535\year two\imat2605 - object oriented design and decelopment with c++\2d car game\2d car game\src\game.cpp(409): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\jonathon\desktop\uni p14141535\year two\imat2605 - object oriented design and decelopment with c++\2d car game\2d car game\src\game.cpp(412): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\jonathon\desktop\uni p14141535\year two\imat2605 - object oriented design and decelopment with c++\2d car game\2d car game\src\game.cpp(419): warning C4390: ';' : empty controlled statement found; is this the intent?
+     1>c:\users\jonathon\desktop\uni p14141535\year two\imat2605 - object oriented design and decelopment with c++\2d car game\2d car game\src\game.cpp(428): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\jonathon\desktop\uni p14141535\year two\imat2605 - object oriented design and decelopment with c++\2d car game\2d car game\src\game.cpp(431): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\jonathon\desktop\uni p14141535\year two\imat2605 - object oriented design and decelopment with c++\2d car game\2d car game\src\game.cpp(446): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\jonathon\desktop\uni p14141535\year two\imat2605 - object oriented design and decelopment with c++\2d car game\2d car game\src\game.cpp(457): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\jonathon\desktop\uni p14141535\year two\imat2605 - object oriented design and decelopment with c++\2d car game\2d car game\src\game.cpp(499): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\jonathon\desktop\uni p14141535\year two\imat2605 - object oriented design and decelopment with c++\2d car game\2d car game\src\game.cpp(518): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\jonathon\desktop\uni p14141535\year two\imat2605 - object oriented design and decelopment with c++\2d car game\2d car game\src\game.cpp(571): warning C4244: 'argument' : conversion from 'double' to 'const float', possible loss of data
+     1>c:\users\jonathon\desktop\uni p14141535\year two\imat2605 - object oriented design and decelopment with c++\2d car game\2d car game\src\game.cpp(578): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>c:\users\jonathon\desktop\uni p14141535\year two\imat2605 - object oriented design and decelopment with c++\2d car game\2d car game\src\game.cpp(674): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\jonathon\desktop\uni p14141535\year two\imat2605 - object oriented design and decelopment with c++\2d car game\2d car game\src\game.cpp(682): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\jonathon\desktop\uni p14141535\year two\imat2605 - object oriented design and decelopment with c++\2d car game\2d car game\src\game.cpp(688): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\jonathon\desktop\uni p14141535\year two\imat2605 - object oriented design and decelopment with c++\2d car game\2d car game\src\game.cpp(708): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>c:\users\jonathon\desktop\uni p14141535\year two\imat2605 - object oriented design and decelopment with c++\2d car game\2d car game\src\game.cpp(717): warning C4018: '<' : signed/unsigned mismatch
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 13.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Jonathon\Desktop\Uni P14141535\Year Two\IMAT2605 - Object Oriented Design and Decelopment with C++\2D Car Game\Debug\2D Car Game.exe" /INCREMENTAL /NOLOGO "sfml-window-d.lib" "sfml-system-d.lib" "sfml-graphics-d.lib" "sfml-audio-d.lib" "sfml-main-d.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Jonathon\Desktop\Uni P14141535\Year Two\IMAT2605 - Object Oriented Design and Decelopment with C++\2D Car Game\Debug\2D Car Game.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Jonathon\Desktop\Uni P14141535\Year Two\IMAT2605 - Object Oriented Design and Decelopment with C++\2D Car Game\Debug\2D Car Game.lib" /MACHINE:X86 Debug\Game.obj
+         Debug\HUD.obj
+         Debug\Main.obj
+         Debug\Menu.obj
+         Debug\MenuButton.obj
+         Debug\PlayerCar.obj
+         Debug\TextureLoader.obj
+         Debug\Tyre.obj
+         Debug\Vector.obj
+         2D Car Game.vcxproj -> C:\Users\Jonathon\Desktop\Uni P14141535\Year Two\IMAT2605 - Object Oriented Design and Decelopment with C++\2D Car Game\Debug\2D Car Game.exe
+     1>Done Building Project "C:\Users\Jonathon\Desktop\Uni P14141535\Year Two\IMAT2605 - Object Oriented Design and Decelopment with C++\2D Car Game\2D Car Game\2D Car Game.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.92
