@@ -90,8 +90,6 @@ Game::Game()
 	StartPointSprite.setTexture(StartPointTexture);
 	StartPointSprite.setTextureRect(sf::IntRect(Checkpoints.at(0).left, Checkpoints.at(0).top, Checkpoints.at(0).width, Checkpoints.at(0).height));
 	StartPointSprite.setPosition(Checkpoints.at(0).left, Checkpoints.at(0).top);
-	Points.setPrimitiveType(sf::Lines);
-	Points.resize(3);
 }
 
 void Game::Setup(const int &k_iPlayerCount, const sf::Vector2u &WindowSize)
@@ -398,7 +396,6 @@ void Game::Inputs()
 
 void Game::Update(const float &k_fTimeStep)
 {
-	Points.clear();
 	//Moves the car. 
 	for (int i = 0; i < Cars.size(); i++)
 	{
@@ -487,7 +484,6 @@ void Game::draw(sf::RenderTarget& target, sf::RenderStates states) const
 	{
 		target.draw(*Collidables.at(i));
 	}
-	target.draw(Points);
 }
 
 void Game::OBBCircle(PlayerCar &Collidable1, Tyre &Collidable2)

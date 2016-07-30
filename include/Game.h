@@ -34,7 +34,6 @@ class Game : public sf::Drawable
 
 		std::vector <PlayerCar*> Cars;//!< Holds the pointers to the data of every car in the game.
 		std::vector <Collidable*> Collidables;//!< Holds the pointers to the data of every collidable in the game(Cars and Tyres).
-		sf::VertexArray Points;
 
 	public:
 		////////////////////////////////////////////////////////////

@@ -1,12 +1,18 @@
-﻿Build started 30/07/2016 20:02:05.
+﻿Build started 30/07/2016 20:52:02.
      1>Project "C:\Users\Jonathon\Desktop\Uni P14141535\Year Two\IMAT2605 - Object Oriented Design and Decelopment with C++\2D Car Game\2D Car Game\2D Car Game.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 13.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt src\Game.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 13.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt src\Game.cpp src\Main.cpp src\PlayerCar.cpp src\Tyre.cpp
          Game.cpp
      1>src\Game.cpp(41): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
      1>src\Game.cpp(56): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
      1>src\Game.cpp(71): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
      1>src\Game.cpp(91): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>src\Game.cpp(93): error C2065: 'Points' : undeclared identifier
+     1>src\Game.cpp(93): error C2228: left of '.setPrimitiveType' must have class/struct/union
+                 type is 'unknown-type'
+     1>src\Game.cpp(94): error C2065: 'Points' : undeclared identifier
+     1>src\Game.cpp(94): error C2228: left of '.resize' must have class/struct/union
+                 type is 'unknown-type'
      1>src\Game.cpp(103): warning C4244: 'argument' : conversion from 'int' to 'const float', possible loss of data
      1>src\Game.cpp(108): warning C4018: '<' : signed/unsigned mismatch
      1>src\Game.cpp(130): warning C4018: '<' : signed/unsigned mismatch
@@ -23,6 +29,9 @@
      1>src\Game.cpp(171): warning C4244: 'argument' : conversion from 'const unsigned int' to 'float', possible loss of data
      1>src\Game.cpp(176): warning C4244: 'argument' : conversion from 'const unsigned int' to 'float', possible loss of data
      1>src\Game.cpp(184): warning C4244: 'argument' : conversion from 'const unsigned int' to 'float', possible loss of data
+     1>src\Game.cpp(401): error C2065: 'Points' : undeclared identifier
+     1>src\Game.cpp(401): error C2228: left of '.clear' must have class/struct/union
+                 type is 'unknown-type'
      1>src\Game.cpp(403): warning C4018: '<' : signed/unsigned mismatch
      1>src\Game.cpp(405): warning C4305: 'argument' : truncation from 'double' to 'const float'
      1>src\Game.cpp(409): warning C4018: '<' : signed/unsigned mismatch
@@ -34,6 +43,7 @@
      1>src\Game.cpp(457): warning C4018: '<' : signed/unsigned mismatch
      1>src\Game.cpp(467): warning C4018: '<' : signed/unsigned mismatch
      1>src\Game.cpp(486): warning C4018: '<' : signed/unsigned mismatch
+     1>src\Game.cpp(490): error C2065: 'Points' : undeclared identifier
      1>src\Game.cpp(539): warning C4244: 'argument' : conversion from 'double' to 'const float', possible loss of data
      1>src\Game.cpp(546): warning C4305: 'argument' : truncation from 'double' to 'const float'
      1>src\Game.cpp(642): warning C4018: '<' : signed/unsigned mismatch
@@ -41,21 +51,21 @@
      1>src\Game.cpp(656): warning C4018: '<' : signed/unsigned mismatch
      1>src\Game.cpp(676): warning C4305: 'argument' : truncation from 'double' to 'const float'
      1>src\Game.cpp(685): warning C4018: '<' : signed/unsigned mismatch
-       Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 13.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Jonathon\Desktop\Uni P14141535\Year Two\IMAT2605 - Object Oriented Design and Decelopment with C++\2D Car Game\Release\2D Car Game.exe" /NOLOGO "sfml-window.lib" "sfml-system.lib" "sfml-graphics.lib" "sfml-audio.lib" "sfml-main.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Jonathon\Desktop\Uni P14141535\Year Two\IMAT2605 - Object Oriented Design and Decelopment with C++\2D Car Game\Release\2D Car Game.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Jonathon\Desktop\Uni P14141535\Year Two\IMAT2605 - Object Oriented Design and Decelopment with C++\2D Car Game\Release\2D Car Game.lib" /MACHINE:X86 /SAFESEH Release\Game.obj
-         Release\HUD.obj
-         Release\Main.obj
-         Release\Menu.obj
-         Release\MenuButton.obj
-         Release\PlayerCar.obj
-         Release\TextureLoader.obj
-         Release\Tyre.obj
-         Release\Vector.obj
-         Generating code
-         Finished generating code
-         2D Car Game.vcxproj -> C:\Users\Jonathon\Desktop\Uni P14141535\Year Two\IMAT2605 - Object Oriented Design and Decelopment with C++\2D Car Game\Release\2D Car Game.exe
-     1>Done Building Project "C:\Users\Jonathon\Desktop\Uni P14141535\Year Two\IMAT2605 - Object Oriented Design and Decelopment with C++\2D Car Game\2D Car Game\2D Car Game.vcxproj" (Build target(s)).
+         Main.cpp
+         PlayerCar.cpp
+     1>src\PlayerCar.cpp(19): warning C4018: '<' : signed/unsigned mismatch
+     1>src\PlayerCar.cpp(61): warning C4018: '<' : signed/unsigned mismatch
+     1>src\PlayerCar.cpp(84): warning C4244: '=' : conversion from 'const int' to 'float', possible loss of data
+     1>src\PlayerCar.cpp(90): warning C4244: '=' : conversion from 'const int' to 'float', possible loss of data
+     1>src\PlayerCar.cpp(96): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+     1>src\PlayerCar.cpp(104): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>src\PlayerCar.cpp(159): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>src\PlayerCar.cpp(165): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>src\PlayerCar.cpp(167): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>src\PlayerCar.cpp(181): warning C4018: '<' : signed/unsigned mismatch
+         Tyre.cpp
+     1>Done Building Project "C:\Users\Jonathon\Desktop\Uni P14141535\Year Two\IMAT2605 - Object Oriented Design and Decelopment with C++\2D Car Game\2D Car Game\2D Car Game.vcxproj" (Build target(s)) -- FAILED.
 
-Build succeeded.
+Build FAILED.
 
-Time Elapsed 00:00:01.79
+Time Elapsed 00:00:01.53
