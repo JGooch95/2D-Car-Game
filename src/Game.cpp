@@ -547,22 +547,22 @@ void Game::OBBOBB(PlayerCar &Collidable1, PlayerCar &Collidable2)
 {
 
 	sf::FloatRect Car1_BB = Collidable1.CurrentSprite.getLocalBounds();
-	util::Vector aBC = util::Vector(Car1_BB.width, 0).rotate(Collidable1.getRotation());
-	util::Vector aBC1 = util::Vector(0, Car1_BB.height).rotate(Collidable1.getRotation());
+	util::Vector Car_Width = util::Vector(Car1_BB.width, 0).rotate(Collidable1.getRotation());
+	util::Vector Car_Height = util::Vector(0, Car1_BB.height).rotate(Collidable1.getRotation());
 	std::vector<util::Vector> Box1Coords;
-	Box1Coords.push_back(util::Vector(sf::Vector2f(Collidable1.getPosition().x - (aBC.x() / 2) - (aBC1.x() / 2), Collidable1.getPosition().y - (aBC.y() / 2) - (aBC1.y() / 2)))); //Top left
-	Box1Coords.push_back(util::Vector(sf::Vector2f(Collidable1.getPosition().x + (aBC.x() / 2) - (aBC1.x() / 2), Collidable1.getPosition().y + (aBC.y() / 2) - (aBC1.y() / 2)))); // Top right
-	Box1Coords.push_back(util::Vector(sf::Vector2f(Collidable1.getPosition().x + (aBC.x() / 2) + (aBC1.x() / 2), Collidable1.getPosition().y + (aBC.y() / 2) + (aBC1.y() / 2)))); //Bottom right
-	Box1Coords.push_back(util::Vector(sf::Vector2f(Collidable1.getPosition().x + (aBC1.x() / 2) - (aBC.x() / 2), Collidable1.getPosition().y + (aBC1.y() / 2) - (aBC.y() / 2)))); // Bottom left
+	Box1Coords.push_back(util::Vector(sf::Vector2f(Collidable1.getPosition().x - (Car_Width.x() / 2) - (Car_Height.x() / 2), Collidable1.getPosition().y - (Car_Width.y() / 2) - (Car_Height.y() / 2)))); //Top left
+	Box1Coords.push_back(util::Vector(sf::Vector2f(Collidable1.getPosition().x + (Car_Width.x() / 2) - (Car_Height.x() / 2), Collidable1.getPosition().y + (Car_Width.y() / 2) - (Car_Height.y() / 2)))); // Top right
+	Box1Coords.push_back(util::Vector(sf::Vector2f(Collidable1.getPosition().x + (Car_Width.x() / 2) + (Car_Height.x() / 2), Collidable1.getPosition().y + (Car_Width.y() / 2) + (Car_Height.y() / 2)))); //Bottom right
+	Box1Coords.push_back(util::Vector(sf::Vector2f(Collidable1.getPosition().x + (Car_Height.x() / 2) - (Car_Width.x() / 2), Collidable1.getPosition().y + (Car_Height.y() / 2) - (Car_Width.y() / 2)))); // Bottom left
 
 	sf::FloatRect Car2_BB = Collidable2.CurrentSprite.getLocalBounds();
-	aBC = util::Vector(Car2_BB.width, 0).rotate(Collidable2.getRotation());
-	aBC1 = util::Vector(0, Car2_BB.height).rotate(Collidable2.getRotation());
+	Car_Width = util::Vector(Car2_BB.width, 0).rotate(Collidable2.getRotation());
+	Car_Height = util::Vector(0, Car2_BB.height).rotate(Collidable2.getRotation());
 	std::vector<util::Vector> Box2Coords;
-	Box2Coords.push_back(util::Vector(sf::Vector2f(Collidable2.getPosition().x - (aBC.x() / 2) - (aBC1.x() / 2), Collidable2.getPosition().y - (aBC.y() / 2) - (aBC1.y() / 2)))); //Top left
-	Box2Coords.push_back(util::Vector(sf::Vector2f(Collidable2.getPosition().x + (aBC.x() / 2) - (aBC1.x() / 2), Collidable2.getPosition().y + (aBC.y() / 2) - (aBC1.y() / 2)))); // Top right
-	Box2Coords.push_back(util::Vector(sf::Vector2f(Collidable2.getPosition().x + (aBC.x() / 2) + (aBC1.x() / 2), Collidable2.getPosition().y + (aBC.y() / 2) + (aBC1.y() / 2)))); //Bottom right
-	Box2Coords.push_back(util::Vector(sf::Vector2f(Collidable2.getPosition().x + (aBC1.x() / 2) - (aBC.x() / 2), Collidable2.getPosition().y + (aBC1.y() / 2) - (aBC.y() / 2)))); // Bottom left
+	Box2Coords.push_back(util::Vector(sf::Vector2f(Collidable2.getPosition().x - (Car_Width.x() / 2) - (Car_Height.x() / 2), Collidable2.getPosition().y - (Car_Width.y() / 2) - (Car_Height.y() / 2)))); //Top left
+	Box2Coords.push_back(util::Vector(sf::Vector2f(Collidable2.getPosition().x + (Car_Width.x() / 2) - (Car_Height.x() / 2), Collidable2.getPosition().y + (Car_Width.y() / 2) - (Car_Height.y() / 2)))); // Top right
+	Box2Coords.push_back(util::Vector(sf::Vector2f(Collidable2.getPosition().x + (Car_Width.x() / 2) + (Car_Height.x() / 2), Collidable2.getPosition().y + (Car_Width.y() / 2) + (Car_Height.y() / 2)))); //Bottom right
+	Box2Coords.push_back(util::Vector(sf::Vector2f(Collidable2.getPosition().x + (Car_Height.x() / 2) - (Car_Width.x() / 2), Collidable2.getPosition().y + (Car_Height.y() / 2) - (Car_Width.y() / 2)))); // Bottom left
 
 	util::Vector Axis1(Box1Coords.at(1) - Box1Coords.at(0)); // Box1 UR - Box1 UL
 	util::Vector Axis2(Box1Coords.at(1) - Box1Coords.at(2)); // Box1 UR - Box1 LR
